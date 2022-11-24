@@ -196,6 +196,15 @@ main .bracket {
     padding: 55px 0;
 }
 
+.match .game .winner {
+    background-color: rgb(253, 239, 239);
+    border: 3px solid black;
+}
+
+.match .game .loser img {
+    -webkit-filter: grayscale(100%);
+}
+
 .match .game .bor {
     border-right: 1px solid black;
 }
