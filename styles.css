@@ -202,13 +202,16 @@ main .bracket {
 
 .match .game .coun img {
     height: 70px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .match .game .coun p {
     font-size: 18px;
     color: rgb(117, 117, 117);
     text-align: center;
-    margin: 0;
+    margin: 4px 0;
 }
 
 .game .vs {
