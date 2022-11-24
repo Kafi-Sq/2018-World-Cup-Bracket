@@ -98,6 +98,14 @@ main .bracket {
     height: 18px;
 }
 
+.group .first {
+    background-color: rgb(253, 239, 239);
+}
+
+.group .mar {
+    margin-top: 15px;
+}
+
 .group .teams .team p {
     font-family: Arial;
     font-size: 13px;
@@ -110,6 +118,10 @@ main .bracket {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(22, 22, 22);
+}
+
+.group .noBorder {
+    border-bottom: 0;
 }
 
 .group .standing img {
@@ -133,3 +145,81 @@ main .bracket {
     margin-right: 15px;
     opacity: .5;
 }
+
+
+.vs {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.versus {
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+}
+
+.rBracket {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.match {
+    flex: 1;
+    min-width: 400px;
+}
+
+.match p {
+    font-size: 22px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.match .game {
+    display: flex;
+    position: relative;
+    border-top: 1px solid rgb(22, 22, 22);
+    border-bottom: 1px solid rgb(22, 22, 22);
+    background-color: rgb(240, 240, 240);
+}
+
+.match .game .coun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 55px 0;
+}
+
+.match .game .bor {
+    border-right: 1px solid black;
+}
+
+.match .game .coun img {
+    height: 70px;
+}
+
+.match .game .coun p {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    margin: 0;
+}
+
+.game .vs {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+
